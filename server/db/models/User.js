@@ -31,12 +31,6 @@ User.prototype.generateToken = function() {
   return jwt.sign({id: this.id}, process.env.JWT)
 }
 
-"react": "^16.8.6",
-"react-dom": "^16.8.6",
-"react-redux": "^7.0.1",
-"react-router-dom": "^5.0.0",
-redux 4.0.1
-
 /**
  * classMethods
  */
