@@ -67,7 +67,7 @@ async function composeMail() {
       //         }
       //     })])
     });
-    processMail();
+    // processMail();
   });
 }
 
